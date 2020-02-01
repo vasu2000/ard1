@@ -1,0 +1,291 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+.header{
+    padding: 10px;
+    height: 300px;
+    width: 96%;
+    color: #fff;
+    background-color: #0b8b7c;
+    background-image: url(http://nextproject.ca/psw/imgs/arduino_logo_2.png);
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    z-index: 10;
+    opacity: 0.7;
+    box-shadow: 0 10px 10px gray;
+}
+
+.logo{
+    margin: 8px 0 0 0;
+    float: left;
+
+}
+
+.pgtitle{
+    float: left;
+    margin-top: 0;
+    margin-left: 80px;
+    width: 400px;
+    font-family: 'sofia';
+    color: #fff;
+}
+
+.pgtitle h1{
+    margin-top: 0;
+    padding-top: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 70px;
+
+}
+.pgtitle span{
+    color: rgb(0, 0, 0);
+}
+
+.header-link{
+    float: right;
+    top: 0;
+    margin-top: 20px;
+}
+
+.losin{
+    float: right;
+}
+.login, .signup{
+    display: block;
+    float: right;
+    line-height: 50px;
+    margin: 0 10px;
+    background-color: #0a1575;
+    padding: 0 25px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    box-shadow: -3px -3px 5px rgba(2, 94, 30, 0.726);
+}
+
+.login:hover, .signup:hover{
+    background-color: rgba(90, 100, 100, 0.7);
+    transition: all 0.3s;
+}
+.search{
+    position: relative;
+    top: 195px;
+    width: 400px;
+}
+
+.searchbar{
+    float: left;
+    line-height: 49px;
+    width: 315px;
+    border: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 2px solid #fff;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+}
+
+.search span{
+    line-height: 55px;
+    width: 54px;
+    display: block;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #fff;
+    float: right;
+    text-align: center;
+    color: gray;
+}
+.searchbar:hover{
+    border: 2px solid rgb(1, 172, 172);
+    transition: all 0.3s;
+}
+.search span:hover{
+    color: rgb(59, 59, 59)
+}
+
+.footer{
+    height: 60px;
+    width: 96%;
+    color: #fff;
+    position: fixed;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -10px 10px gray;
+    box-sizing: border-box;
+    z-index: 10;
+    background-color: rgba(0, 73, 116, 0.7);
+}
+
+.footer-top{
+    height: 100%;
+    background-color: rgba(22, 139, 110, 0.7);
+}
+.footer-bottom{
+    height: 0;
+    background-color: rgba(76, 85, 85, 0.7);
+    box-shadow: 0 -10px 10px rgb(121, 121, 121);
+}
+
+.contact-no{
+    padding: 26px;
+    font-size: 20px;
+    float: left;
+    letter-spacing: 2px;
+}
+.ctnum{
+    float: right;
+    font-size: 12px;
+    margin: -1px;
+}
+
+.ctnum span{
+    font-size: 20px;
+}
+
+.reach-us{
+    float: right;
+    margin: 26px;
+}
+
+.btn{
+    padding: 5px  15px;
+    color: #fff;
+}
+
+.ftop{
+    height: 30px;
+    margin-left: -10px;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+.message{
+    display: none;
+    width: 300px;
+    float: right;
+    height: inherit;
+    margin-right: 40px;
+    padding: 5px 0 0 20px;
+}
+
+.fitem{
+    padding: 5px 10px 5px 0;
+    letter-spacing: 2px;
+    float: left;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    text-shadow: -0.5px -0.5px 10px #ffffff;
+}
+
+.fitem a{
+    color: #fff;
+}
+
+.fitem1{
+    float: left;
+}
+
+.ftop span{
+    background-color: teal;
+    border-radius: 50px;
+    border: 1px solid teal;
+    padding: 2px 4px 4px 6px;
+    text-align: center;
+}
+
+.fitem a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.message h3{
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 2px;
+    text-shadow: -1px -1px 5px #ffffff;
+    margin-bottom: 15px;
+}
+
+
+.name, .email, .msg{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: -1px -1px 5px #fff;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.name{
+    text-transform: capitalize;
+}
+.email, .msg{
+    text-transform: lowercase;
+}
+.submit{
+    background-color: rgb(0, 122, 170);
+    border-radius: 50px;
+    border: 0;
+    width: 150px;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 1px 1px 10px white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 5px 20px;
+    line-height: 30px;
+    margin-left: 160px;
+}
+
+.submit:hover{
+    box-shadow: 2px 2px 10px #fff;
+}
+
+.submit:active{
+    box-shadow: none;
+    margin-top: 2px;
+}
+
+.facebook{
+    padding: 5px  9px;
+    color: #fff;
+}
+
+.size{
+    width: 20px;
+    height: 20px;
+}
+
+.mobile{
+    display: none;
+}
